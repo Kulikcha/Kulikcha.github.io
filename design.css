@@ -1,0 +1,168 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family:Georgia, serif;
+	font-size:100%;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration:none;
+}
+
+h1,h2 {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#head-content {
+	background-color:#000000;
+}
+
+#logo {
+	width:215px;
+	padding-left:50px;
+}
+
+#navigation {
+	 width:400px;
+	 position:absolute;
+	 top:27px;
+	 left:820px;
+}
+
+#navigation ul {
+	
+}
+
+#navigation ul li{
+	list-style-type:none;
+	display:inline-block;
+	margin:0 20px;
+}
+
+#navigation ul li a {
+	font-size:1em;
+	color:#ffffff;
+	
+}
+
+#navigation ul li a:visited {
+	color:#0000ff;
+}
+
+#start-block {
+	background-color:#9a9a9a;
+	height:400px;
+	position:relative;
+}
+
+#greeting-block {
+	width:500px;
+	text-align:center;
+}
+
+#greeting-block img {
+	margin-top:50px;
+	
+}
+
+#greeting-block h1 {
+	text-transform:uppercase;
+	letter-spacing:0.05em;
+	word-spacing:.1em;
+	font-weight:normal;
+	color:#ffffff;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#greeting-block p {
+	font-size:.8em;
+	color:#ffffff;
+}
+
+#scheme {
+	position:absolute;
+	top:60px;
+	right:140px;
+	width:250px;
+	background-color:#ffffff;
+	border-radius: 20px;
+}
+
+#scheme h2 {
+	background-color:#f5f5f5;
+	text-align:center;
+	border-radius: 19px;
+	font-weight:normal;
+}
+
+#scheme nav {
+	border-radius: 19px;
+}
+
+#scheme nav ul {
+	list-style-type:none;
+}
+
+#scheme nav ul li {
+	padding:10px;
+	text-align:center;
+	border-radius: 19px;
+}
+
+#scheme nav ul li:nth-of-type(2n+1) {
+	background-color:#ff9b51;
+}
+
+#scheme nav ul li a {
+	color:#9a9a9a;
+	
+}	
+
+article header {
+	background-color:#ffffff;
+	text-align:center;
+	border-width:1px 0 1px 0;
+	border-style:solid;
+	height:70px;
+}
+
+section:nth-of-type(2n+1) {
+	background-color:#f5f5f5;
+}
+
+section:nth-of-type(2n) {
+	height:100px;
+}
+section {
+	text-align:center;
+	border:1px solid white;
+}
+
+section h2 {
+	margin-top:10px;
+}
+section p {
+	margin-top:40px;
+	margin-bottom:20px;
+}
+
+footer {
+	height:50px;
+	background-color:#000000;
+	text-align:center;
+}
+
+footer p {
+	color:#ffffff;
+	line-height:50px;
+}
+
